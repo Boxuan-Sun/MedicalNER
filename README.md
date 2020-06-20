@@ -9,13 +9,9 @@
 一, 目标序列标记集合 O非实体部分,TREATMENT治疗方式, BODY身体部位, SIGN疾病症状, CHECK医学检查, DISEASE疾病实体, 二, 序列标记方法 采用BIO三元标记
 
 `self.class_dict ={  
-
-                 'O':0,  
-                 
-                 'TREATMENT-I': 1,  
-                 
-                 'TREATMENT-B': 2,  
-                 
+                 'O':0,                   
+                 'TREATMENT-I': 1,                   
+                 'TREATMENT-B': 2,                   
                  'BODY-B': 3,  
                  
                  'BODY-I': 4,  
